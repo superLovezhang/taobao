@@ -1,5 +1,7 @@
 # taobao
 
+## 本页面预览地址： http://47.100.118.229/:8080
+
 ## Project setup
 ```
 yarn install
