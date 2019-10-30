@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>taobao</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1477066_ezgvggjhx9.css">
+    <title>淘宝</title>
+    <!-- <script src="./reset.js"></script> -->
+    <script>
+      let styleNode = document.createElement('style');
+      let w = window.innerWidth;
+      styleNode.innerHTML = 'html {font-size: '+w/16+'px}';
+      document.getElementsByTagName('head')[0].append(styleNode);
+    </script>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but taobao doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>
