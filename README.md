@@ -1,6 +1,6 @@
 # taobao
 
-## 本页面预览地址： http://47.100.118.229/taobao
+## 本页面预览地址： http://47.107.59.227/taobao
 
 ## Project setup
 ```
